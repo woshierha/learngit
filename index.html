@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>
+        Pocket Algorithm口袋算法
+    </h1>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <p>Pocket Algorithm口袋算法</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#brief">模型简介</a>
+                </li>
+                <li>
+                    <a href="#step">学习步骤</a>
+                </li>
+                <li>
+                    <a href="#code">代码实现</a>
+                </li>
+                <li>
+                    <a href="#update">改进优化</a>
+                </li>
+            </ul>
+        </div>
+        <div id="main_doc">
+            <section id="brief">
+                <h2>模型简介</h2>
+                <h3>解决问题</h3>
+                <article>
+                    <div id="question">
+                        <p class="text">
+                            感知器学习算法的数据集是可分的，所以每次迭代的误分类数最终收敛到0。如果数据集不可分，会遇到问题， 更新功能永不停止 最终输出并不能保证样本内误差是最优的，
+                        </p>
+                        <p>
+                            <img src="1.png" alt="">
+                        </p>
+                    </div>
+                    <div class="introduction">
+                        <article>
+                            <p>口袋算法（Pocket Algorithm）是一个二元分类算法，将一个数据集通过线性组合的方式分成两种类型。</p>
+                            <p>这个算法将迄今为止看到的最好结果保存在它的口袋里（这就是它被称为口袋学习算法的原因）。</p>
+                            <p>最好的结果意味着错误分类的数量最少。如果新权重产生的错误分类数量少于口袋中的权重，则将口袋中的权重替换为新权重；如果新的砝码不比口袋里的好，把那个放在口袋里并丢弃新的砝码。在训练迭代结束时，算法返回口袋中的解，而不是最后的解。</p>
+                        </article>
+                    </div>
+                </article>
+            </section>
+            <section id="step">
+                <h2>学习步骤</h2>
+                <article>
+
+                </article>
+            </section>
+            <section id="code">
+                <h2>代码实现</h2>
+            </section>
+            <section id="update">
+                <h2>改进优化</h2>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+
+</html>
